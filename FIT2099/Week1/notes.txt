@@ -1,0 +1,60 @@
+Q1. syntax for creating a new object book of type 'Book' in Java
+
+in Java : ClassName objectName = new ClassName();
+
+Book    book    =    new Book();
+│        │               │
+│        │               └── Create a new Book object
+│        └── Variable name (reference)
+└── Class name (type)
+
+class Book {
+    String title;
+    int pages;
+}
+
+'book' , You could call it anything:
+
+Book myBook = new Book();
+Book b = new Book();
+Book textbook = new Book();
+
+Q2. 
+-an object is instance实列 of a class
+-a class is blueprint蓝图 for object 
+
+3.Class means the template(blueprint) to create a kind of object
+-each class has own attribute and operation
+
+4.
+attrubutes : is data contained such as info 
+methods : is action contained such as functions
+
+5.Read a statement and then them into object oriented design
+->do feature extraction & class identification from requirements
+->nouns and verbs
+
+For this gym example:
+
+Requirement concept               Likely Java representation
+------------------------------------------------------------
+Member                            Class
+Name                              Attribute of Member
+Phone number                      Attribute of Member
+Access card                       Class
+Expiry date                       Attribute of AccessCard
+Card reader                       Class
+Verify card                       Method of CardReader
+Door                              Class
+Locked/unlocked                   Attribute of EntranceDoor
+Unlock door                       Method of EntranceDoor
+
+
+6.origin means cloud respo 
+local respo is my computer 
+ 
+7.personal access token only generated once and can never going back to see again 
+
+8.set up for jetbrain clone respo 
+
+9. access token - > only project Im in - > respo -> code (download , push)

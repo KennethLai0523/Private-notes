@@ -1,0 +1,22 @@
+1.visualisation idiom mean - the method of representing data such as bar chart , pie chart....
+
+2.table dataset - row & column 
+spatial dataset - geographic or location 
+
+3.luminance is from white -> black 
+saturation is adding grey to colour 
+
+4.marks - is the way such as bubble to represent country 
+channel - change of size or colour for country 
+
+5.qualitative - such as name , country … no ordered 
+quantitative - has natural zero ordering sequence 
+
+6.qualitative has - ordinal , categorical
+(I heard teacher say just mention the broad type is fine)
+
+7.chart expression and explanation skill 
+
+8.my topic is - community garden
+
+9.chart interactive 

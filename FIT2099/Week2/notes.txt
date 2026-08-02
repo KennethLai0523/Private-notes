@@ -1,0 +1,42 @@
+1.Modifiers 
+
+a)access  -> who is allowed 
+public , private , protected
+
+b)non access  -> how does it behave 
+static , final , abstract 
+
+2.Package (folder concept) for class 
+*a package wraps multiple class 
+
+src
+|- world
+    |- plants
+        |- Tree.java
+        |- Bush.java
+    |- fruits
+        |- Apple.java
+        |- Blueberry.java       
+
+*If Tree wants to use Apple class : 
+package world.plants;
+import world.fruits.Apple; // import apple class
+
+public class Tree{
+    private Apple[] apples = new Apple[5];
+    // the rest of the code...
+}
+
+3.'wildcard' asterisk . 
+
+package world.plants;
+import world.fruits.*; // we import all classes in fruits package (i.e., Apple & Blueberry)
+
+public class Tree{
+    private Apple[] apples = new Apple[5];
+    // the rest of the code...
+}
+
+*means import all class available in this package 
+
+4.Encapsulation 

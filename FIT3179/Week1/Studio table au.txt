@@ -1,0 +1,39 @@
+Q1.continuous variable vs discrete variable 
+- means is it clearly seperated of smooth transition 
+
+
+Q2.geometry is discrete
+field is continuous 
+
+Q3.scatter plot bubble dont have size diffrent
+bubble chat has different size
+
+Q4.attribute of the analysis属性
+
+Q5.ordinal vs quantitative vs qualitative
+postcode cannot compare so is ordinal
+
+Q6.DV1 - requirement 
+
+Q7. I got community garden for DV 1
+
+Q8. FIT 2179 is just slides , FIT 3179 is actual - level 3 units don't need worry 
+
+Q9. art prioritize emotional , while data visualization prioritize accuracy
+
+Q10.canyon model is a visualization as it represent through the medium. 
+
+Q11. channel - means the method for presentation of the data
+
+Q12.quantitative data use - size & brightness , not use hue or shape 
+
+Q13.ordinal data
+
+Q14.saturation is from one colour to another 
+brightness is same colour
+
+Q15. white <-> black transition is brightness(luminance)
+
+Q16.for forum posting im in 4th lego visualize discuss
+
+Q17.30days moving average take a day of high and low middle and add up previous 30 and eliminate as time goes and divide by 30 to get today . 
