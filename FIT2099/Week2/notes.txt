@@ -43,3 +43,7 @@ public class Tree{
 
 5.Package -> Class -> function -> variable 
 *function & variable can be private or public to that class 
+
+5.Math.min(a,b) , this compares them and output the least 
+
+6.system.out.println("" + variable );

@@ -1,6 +1,6 @@
 class Main {
     public static void main(String args[]) { //this starts the program 
-        AVerySimpleCalculatorApp myCalculator = new AVerySimpleCalculatorApp(1, '+', 1);
+        AVerySimpleCalculatorApp myCalculator = new AVerySimpleCalculatorApp(3, '-', 2);
         //this using blueprint of AverySimpleCalculatorApp and create a new class named 'myCalculator'
         //'new' mean create a new object (is a feature to create a new object from its blueprint)
         //(x,x,x) means passing in 3 input , (int,'operator',int)
@@ -8,6 +8,8 @@ class Main {
         //this is a typical printing out message 
     }
 }
+
+//above is belong to main.java actually 
 
 class AVerySimpleCalculatorApp {
     //oh ok this mean using the blueprint of this class and letting the new calculator named 'myCalculator' to call the method 
@@ -33,6 +35,9 @@ class AVerySimpleCalculatorApp {
         if(operator == '+'){ // in Java : '' create a car , "" create a string
             return "The result is " + (a+b); // + mean a combination 
         } 
+        else if(operator == '-'){
+            return "The result is " + (a-b);
+        }
         //this method must return a text
         //showResult is the method name 
         return "";
