@@ -40,3 +40,6 @@ public class Tree{
 *means import all class available in this package 
 
 4.Encapsulation 
+
+5.Package -> Class -> function -> variable 
+*function & variable can be private or public to that class 
