@@ -47,3 +47,97 @@ public class Tree{
 5.Math.min(a,b) , this compares them and output the least 
 
 6.system.out.println("" + variable );
+
+7.data type in java (Primitive)
+boolean , char (single character), byte , short , int , long , float , double 
+
+8.
+public class CoffeeMachine{
+    private boolean isBrewing;
+    private float water; // in Litre 
+    private String brand;
+    private MilkContainer milkContainer; //another custom class can be an attribute!
+}
+
+9. local variable inside a method within a class 
+class Scope{
+    String classVariable; // class-level
+
+    void classMethod(){
+        String localVariable; // local-level
+    }
+
+    void run(){
+        localVariable = "Doesn't work! cannot find symbol"; // it causes an error
+        // because localVariable doesn't exist within this scope
+
+        classVariable = "assign text to class field/attribute";
+        // this one works because the variable exists one step outside of the local brackets (i.e. class scope)
+    }
+}
+
+class Main{
+    public static void main(String[] args){
+        Scope scope = new Scope();
+        scope.run();
+    }
+}
+
+10. A class has to always present before we can use it as a blueprint :
+class Main{
+    public static void main(String[] args){
+        CoffeeMachine coffeeMachine = new CoffeeMachine(); // simple!  <--- this calls constructor 
+    }
+}
+
+class CoffeeMachine{} // create an empty class   
+
+**In java , a class i always being constructed in : class ClassName{}
+**In java , using blueprint to create an object is always : new ClassName()
+
+## for : 
+class CoffeeMachine{
+    CoffeeMachine(){}
+}  <---- there's a secret constructor in there (it is auto created if I dont manually created it by java)
+
+
+then we can store local , when calling blueprint : CoffeeMachine nespresso = new CoffeeMachine("nespresso"); #this mean passing the new object with this input 
+public class CoffeeMachine{
+    String brand
+
+    CoffeeMachine(){} 
+    CoffeeMachine(String newBrand){
+        this.brand = newBrand // store "newBrand" to "brand" attribute. Nowm, coffee machine has a brand! 
+    }
+}
+
+#'this' mean this class thing 
+#constructor always same name as class 
+#constructor can be public / private / itself name , but not 'void or construct'
+
+11.programming does not study memory allocation 
+A memory has address = XXXX XXXX 
+it can be allocated by java language : 
+int i = 5 mean a block of mamoery having a box which has value 5 
+
+Integer i = new Integer(5)
+
+mean creating a new box named as i , putting value 5 in there. 
+
+12.JVM(java virtual machine = translator):
+Your Java Code (.java)
+          │
+          ▼
+      Java Compiler
+      (javac)
+          │
+          ▼
+     Bytecode (.class)
+          │
+          ▼
+   Java Virtual Machine (JVM)
+          │
+          ▼
+ Windows / macOS / Linux
+
+ **the fundamental language is C++ 
