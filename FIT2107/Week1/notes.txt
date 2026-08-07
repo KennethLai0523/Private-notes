@@ -1,0 +1,2 @@
+role play ice cream machine , listen to input and check output , 
+test case with different input for different output 

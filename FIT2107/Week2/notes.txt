@@ -1,0 +1,15 @@
+branching out from : Flavour -> topping -> receptable  shallow 3 level tree is better than a deeper tree . 
+
+Choose flavour
+│
+├── Vanilla
+│   ├── Sprinkles
+│   ├── Nuts
+│   └── Chocolate
+│
+├── Choc mint
+│   ├── Nuts
+│   └── Chocolate
+│
+└── Funfetti
+    └── Sprinkles
