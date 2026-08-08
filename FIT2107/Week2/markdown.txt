@@ -1,0 +1,28 @@
+# Big Heading
+## Heading
+### Smaller Heading
+
+**Bold text**
+
+*Italic text*
+
+~~Crossed out~~
+
+`code or keyword`
+
+- Point 1
+- Point 2
+- Point 3
+
+1. First
+2. Second
+3. Third
+
+> Important note / quotation
+
+- [ ] Need to study
+- [x] Finished studying
+
+---
+
+[Link name](https://example.com)
