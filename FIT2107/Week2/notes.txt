@@ -1,3 +1,4 @@
+1.In applied class (remmeber to do ontrack)
 branching out from : Flavour -> topping -> receptable  shallow 3 level tree is better than a deeper tree . 
 
 Choose flavour
@@ -13,3 +14,18 @@ Choose flavour
 │
 └── Funfetti
     └── Sprinkles
+
+
+2.Attribute 
+functional - whether the software does the thing it suppose to do 
+e.g. completeness , correctness , appropriate 
+non function - how it does it (everything else)
+e.g.realibility , availability , portability (devices type) , testability , scalability, flexbility, reusability, maintainability, Interoperability, performance , security 
+
+good tester has good communication skill 
+
+3.type of testing 
+01 - unit testing (part of a code)
+02 - integration testing (part of the code works but not together)
+03 - system testing (entire piece of software)
+04 - acceptance testing (from a user perspective, meet the software requirement)
